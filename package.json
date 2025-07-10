@@ -1,5 +1,5 @@
 {
-  "name": "country-phonenumber",
+  "name": "@mdfrough/country-phonenumber",
   "version": "1.0.0",
   "description": "A utility package for managing country phone numbers",
   "main": "dist/index.js",
@@ -72,6 +72,7 @@
   },
   "homepage": "https://github.com/MDFrough/country-phonenumber#readme",
   "devDependencies": {
+    "@types/node": "^24.0.12",
     "@vitest/ui": "^3.2.4",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"

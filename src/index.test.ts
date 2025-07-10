@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { CountryData } from './country.model';
+import { CountryData } from './country-model';
 import { FlagImageFormat, FlagSize, FlagSizeJpg } from './flag.enum';
 
 vi.mock('./country.data', () => {
