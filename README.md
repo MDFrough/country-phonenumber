@@ -26,17 +26,16 @@ npm i @mdfrough/country-phonenumber
 ```ts
 import { CountryUtils, FlagImageFormat, FlagSize, FlagSizeJpg} from '@mdfrough/country-phonenumber';
 
-const utils = new CountryUtils();
 
 // Get all countries
-const all = utils.getAll();
+const all = CountryUtils.getAll();
 
 // Get flag
-const svgFlag = utils.getCountryFlagSVG('US');
-const pngFlag = utils.getCountryFlagPNG('US', FlagSize.Size_64x48);
+const svgFlag = CountryUtils.getCountryFlagSVG('US');
+const pngFlag = CountryUtils.getCountryFlagPNG('US', FlagSize.Size_64x48);
 
 // Validate number length
-const isValid = utils.isNumberValidLength('+1 234-567-8901', 10, 10);
+const isValid = CountryUtils.isNumberValidLength('+1 234-567-8901', 10, 10);
 ```
 
 ---
