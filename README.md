@@ -24,8 +24,7 @@ npm i @mdfrough/country-phonenumber
 ## 📄 Usage
 
 ```ts
-import { CountryUtils } from '@mdfrough/country-phonenumber';
-import { FlagImageFormat, FlagSize, FlagSizeJpg } from '@mdfrough/country-phonenumber/flag.enum';
+import { CountryUtils, FlagImageFormat, FlagSize, FlagSizeJpg} from '@mdfrough/country-phonenumber';
 
 const utils = new CountryUtils();
 
