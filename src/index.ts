@@ -3,9 +3,9 @@ import { CountryData } from "./country.model";
 import { FlagImageFormat, FlagSize, FlagSizeJpg } from "./flag.enum";
 
 
-export * from './flag.enum';
-export * from './country.data';
-export * from './country.model';
+export { FlagImageFormat, FlagSize, FlagSizeJpg } from './flag.enum';
+export type { CountryData } from './country.model';
+
 
 export class CountryUtils {
     private countries: CountryData[] = countryDataList;
