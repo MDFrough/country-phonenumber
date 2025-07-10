@@ -1,6 +1,6 @@
-import { CountryData } from "./country-model";
+import { CountryData } from "./country.model";
 
-export const countryData: CountryData[] = [
+export const countryDataList: CountryData[] = [
     { "code": "+93", "short_code": "AF", "name": "Afghanistan", "min_length": 8, "max_length": 9 },
     { "code": "+355", "short_code": "AL", "name": "Albania", "min_length": 8, "max_length": 9 },
     { "code": "+213", "short_code": "DZ", "name": "Algeria", "min_length": 8, "max_length": 9 },

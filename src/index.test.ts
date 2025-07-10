@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { CountryData } from './country-model';
+import { CountryData } from './country.model';
 import { FlagImageFormat, FlagSize, FlagSizeJpg } from './flag.enum';
 
 vi.mock('./country.data', () => {
@@ -15,7 +15,7 @@ vi.mock('./country.data', () => {
 });
 
 import { CountryUtils } from './index';
-import { countryData as mockedCountryDataForTests } from './country.data';
+import { countryDataList as mockedCountryDataForTests } from './country.data';
 
 
 describe('CountryUtils Tests', () => {
