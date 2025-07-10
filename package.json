@@ -1,9 +1,12 @@
 {
   "name": "country-phonenumber",
-  "author": "mdfrough@yahoo.com",
   "version": "1.0.0",
   "description": "A utility package for managing country phone numbers",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
@@ -58,7 +61,16 @@
     "phone number validation search",
     "phone number validation country code"
   ],
+  "author": "mdfrough@yahoo.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDFrough/country-phonenumber"
+  },
+  "bugs": {
+    "url": "https://github.com/MDFrough/country-phonenumber/issues"
+  },
+  "homepage": "https://github.com/MDFrough/country-phonenumber#readme",
   "devDependencies": {
     "@vitest/ui": "^3.2.4",
     "typescript": "^5.8.3",
