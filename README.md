@@ -16,7 +16,7 @@ A TypeScript utility library for working with country data, flags, and phone num
 ## 📥 Installation
 
 ```bash
-npm install country-utils-ts
+npm i @mdfrough/country-phonenumber
 ```
 
 ---
